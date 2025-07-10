@@ -1,10 +1,10 @@
 
 import './App.css';
-
+ import MainPage from './Component/MainPage';
 function App() {
   return (
     <div className="App">
-      <h2>Hello React</h2>
+       <MainPage/>
     </div>
   );
 }
