@@ -1,0 +1,70 @@
+/* Main container */
+.main {
+  width: 300px;
+  margin: 50px auto;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.main:hover {
+  transform: scale(1.02);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.3);
+}
+
+/* Heading */
+.heading {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 25px;
+  color: #333;
+}
+
+/* Flex container for - count + */
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+/* Show counter */
+.show {
+  flex: 1;
+  font-size: 32px;
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+/* Buttons */
+button {
+  padding: 10px 20px;
+  font-size: 22px;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+button:hover {
+  background-color: #45a049;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  transform: translateY(-2px);
+}
+
+/* Individual sections can be used if you want spacing or control later */
+.decrease, .increase, .rest {
+  flex: 1;
+}
+
+/* Reset button alignment */
+.rest {
+  margin-top: 10px;
+}
